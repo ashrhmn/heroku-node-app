@@ -33,6 +33,10 @@ app.get('/', function(req, res) {
     res.end(`Hello WOrld`)
 });
 
-app.listen(port, () => {
+// app.listen(port, () => {
+//     console.log(`app started on ${port}`);
+// })
+
+app.listen(() => {
     console.log(`app started on ${port}`);
 })
